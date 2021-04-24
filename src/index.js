@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Colorpicker from './Colorpicker/colorpicker'
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Colorpicker></Colorpicker>
   </React.StrictMode>,
   document.getElementById('root')
 );
