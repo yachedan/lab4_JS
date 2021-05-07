@@ -1,0 +1,185 @@
+html,body{
+    height: 100%;
+}
+#root,.page{
+    height: 100%;
+    margin-top: 0;
+}
+.sketch-picker{
+     background: #974e4e none repeat scroll 0% 0% !important;
+     float:right;
+     width: 91% !important;
+}
+svg{
+
+}
+.key{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: 5px;
+    outline-style: solid;
+    outline-width: 2px;
+}
+.keyboard{
+    display: flex;
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 10%;
+    width: 50%;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.deselect button{
+    cursor: pointer;
+}
+.right_sidebar{
+    float: right;
+    height: 100%;
+    width: 15%;
+    background-color: #202020;
+}
+.right_sidebar label{
+    color: white;
+    margin-left: 8px;
+}
+#presetInput{
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+    margin-left: 8px;
+}
+.left_sidebar{
+    float: left;
+    height: 100%;
+    width: 15%;
+    background-color: #202020;
+}
+.left_sidebar label{
+    color: white;
+    margin-left: 8px;
+}
+.deselect{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.reset{
+    margin-bottom: 10px;
+}
+#groupInput{
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+    margin-left: 8px;
+}
+.group_list,.preset_list{
+    padding: 0px;
+    margin-top: 30px;
+}
+.group_listc{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.group_list_li, .preset_list_li{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 200px;
+    line-height: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.deleteGroup{
+    color: white;
+    margin-right: 10px;
+    min-width: 14px;
+    line-height: 37px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.deleteGroup:hover{
+    font-size: 26px;
+    transition: 0.2s ease-in-out;
+}
+.group_listc:hover{
+    outline: 2px solid #353535;
+    border-radius: 1%;
+}
+.group_ok{
+    color: white;
+    cursor: pointer;
+}
+.group_listcc{
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+}
+.preset_listc{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #353535;
+    margin: 0px 5px;
+}
+.deletePreset{
+    color: white;
+    margin-right: 10px;
+    min-width: 14px;
+    line-height: 37px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.deletePreset:hover{
+    font-size: 26px;
+    transition: 0.2s ease-in-out;
+}
+#rc-editable-input-2{
+    background-color: #0e0e0e;
+    box-shadow: none !important;
+    color: white;
+    border-bottom: 2px solid #7e7e7e !important;
+}
+#rc-editable-input-4{
+    background-color: #0e0e0e;
+    box-shadow: none !important;
+    color: white;
+    border-bottom: 2px solid #7e7e7e !important;
+}
+#rc-editable-input-6{
+    background-color: #0e0e0e;
+    box-shadow: none !important;
+    color: white;
+    border-bottom: 2px solid #7e7e7e !important;
+}
+#rc-editable-input-8{
+    background-color: #0e0e0e;
+    box-shadow: none !important;
+    color: white;
+    border-bottom: 2px solid #7e7e7e !important;
+}
+#rc-editable-input-10{
+    background-color: #0e0e0e;
+    box-shadow: none !important;
+    color: white;
+    border-bottom: 2px solid #7e7e7e !important;
+}
